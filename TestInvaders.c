@@ -41,6 +41,15 @@ int main() {
    tank.c = COLS / 2;
    tank.ch = '^';
 
+   
+    aliens[1].r = 1;
+      aliens[1].c = i*3;
+      aliens[1].pr = 0;
+      aliens[1].pc = 0;
+      aliens[1].ch = '#';
+      aliens[1].alive = 1;
+      aliens[1].direction = 'r';
+   
    /* Set aliens settings */
   /* for (i=0; i<10; ++i) {
       aliens[i].r = 1;
